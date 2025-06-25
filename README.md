@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Requirements for the React test
 
-## Getting Started
+- Please use JavaScript (and do not use TypeScript)
 
-First, run the development server:
+- Try to reproduce the given design. It does not have to be perfect, the design itself has minor mistakes too. If you spot any, feel free to make note of them (this is not required). 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Use React as a frontend system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Functional requirements:
+  - Create a listing page
+  - Hovering over the ? should show a bit if info (example on one of the screens)
+  - "Add to Cart" button should work and on every item
+  - Cart to display the amount of items in it, and it's total
+  - Cart should have an show/hide feature on click
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- What is not required:
+  - Removing from the cart
+  - Checkout button (but if it leads to a different page its a plus)
+  - You can use your own assets/items, you don't have to use the give phone assets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Screens
 
-## Learn More
+Listing page
+![Listing Page](screen-listing.jpg?raw=true)
 
-To learn more about Next.js, take a look at the following resources:
+Listing page with info
+![Listing page with info](screen-with-info.jpg?raw=true)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Listing page with cart having items
+![Listing Page](screen-cart.jpg?raw=true)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Listing page with cart open
+![Listing Page](screen-cart-open.jpg?raw=true)
