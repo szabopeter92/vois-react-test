@@ -1,3 +1,5 @@
+# Deployed App: https://fingertipsstore.netlify.app/
+
 # Requirements for the React test
 
 - Please use JavaScript (and do not use TypeScript)
